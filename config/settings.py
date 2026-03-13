@@ -48,13 +48,6 @@ INSTALLED_APPS = [
     'crispy_forms',
     'crispy_bootstrap5',
     'storages',
-
-    # Local apps
-    'products',
-    'customization',
-    'cart',
-    'orders',
-    'admin_panel',
 ]
 
 MIDDLEWARE = [
