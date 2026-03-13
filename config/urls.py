@@ -22,12 +22,6 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('auth/', include('authentication.urls')),
-    path('products/', include('products.urls')),
-    path('customizer/', include('customization.urls')),
-    path('cart/', include('cart.urls')),
-    path('orders/', include('orders.urls')),
-    path('dashboard/', include('admin_panel.urls')),
 ]
 
 from django.conf import settings
