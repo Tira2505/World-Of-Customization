@@ -50,7 +50,6 @@ INSTALLED_APPS = [
     'storages',
 
     # Local apps
-    'authentication',
     'products',
     'customization',
     'cart',
